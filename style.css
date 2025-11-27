@@ -1,0 +1,114 @@
+body{
+    background-color: aliceblue;
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar{
+    background-color: rgb(68, 19, 83);
+}
+
+nav{
+    background-color: rgb(68, 19, 83);
+    padding: 10px;
+    border: none;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+.nav.links{
+    text-decoration: none;
+    color: white;
+}   
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+header h1{
+    color: rgb(68, 19, 83);
+    font-size: 40px;
+    text-align: center;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header div img{
+    width: 300px;
+    height: auto;
+}
+
+.info{
+    text-align: center;
+    margin-top: 20px;
+}
+.info h2{
+    color: rgb(68, 19, 83);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.know{
+    padding: 10px 20px;
+    background-color: rgb(120, 42, 155);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 770px;
+}
+
+.info a:hover{
+    background-color: rgb(85, 24, 104);
+}
+
+footer{
+    background-color: rgb(68, 19, 83);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    margin: 5px 0;
+}
+footer {
+    background-color: rgb(68, 19, 83);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
